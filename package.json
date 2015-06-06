@@ -1,5 +1,5 @@
 {
-  "name": "awesome-ghwh",
+  "name": "awesome-github-webhooks",
   "version": "0.0.7",
   "description": "AwesomeCI GitHub WebHook Builder",
   "main": "plugin.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AwesomeCI/AwesomeGhwh.git"
+    "url": "git+https://github.com/AwesomeCI/AwesomeGithubWebhooks.git"
   },
   "keywords": [
     "awesome",
@@ -19,9 +19,9 @@
   "author": "Ryan Copley <npm@ryancopley.com> (http://github.com/RyanCopley)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/AwesomeCI/AwesomeGhwh/issues"
+    "url": "https://github.com/AwesomeCI/AwesomeGithubWebhooks/issues"
   },
-  "homepage": "https://github.com/AwesomeCI/AwesomeGhwh#readme",
+  "homepage": "https://github.com/AwesomeCI/AwesomeGithubWebhooks#readme",
   "dependencies": {
     "awesome-github-api": "0.0.1"
   }
