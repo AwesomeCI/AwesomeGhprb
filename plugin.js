@@ -1,7 +1,8 @@
 'use strict';
 
+var AwesomeGithubApi = require("awesome-github-api");
 var GithubPullRequestBuilder = function(){
-
+    var models = {};
 };
 
 GithubPullRequestBuilder.prototype.slug = function (){
@@ -11,6 +12,19 @@ GithubPullRequestBuilder.prototype.slug = function (){
 GithubPullRequestBuilder.prototype.name = function (){
     return "Github Pull Request Builder";
 };
+
+
+GithubAPI.prototype.models = function (db){
+    models.github = AwesomeGithubApi.models(db);
+    return null;
+};
+
+GithubAPI.prototype.dependencies = function (){
+    return [
+        "awesome-github"
+    ];
+};
+
 
 GithubPullRequestBuilder.prototype.middleware = function (req, res, next){
     next();
