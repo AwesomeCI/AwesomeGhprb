@@ -1,27 +1,27 @@
 {
-  "name": "awesome-ghprb",
+  "name": "awesome-ghwh",
   "version": "0.0.7",
-  "description": "AwesomeCI GitHub Pull Request Builder",
+  "description": "AwesomeCI GitHub WebHook Builder",
   "main": "plugin.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AwesomeCI/AwesomeGhprb.git"
+    "url": "git+https://github.com/AwesomeCI/AwesomeGhwh.git"
   },
   "keywords": [
     "awesome",
     "ci",
     "github",
-    "ghprb"
+    "ghwh"
   ],
   "author": "Ryan Copley <npm@ryancopley.com> (http://github.com/RyanCopley)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/AwesomeCI/AwesomeGhprb/issues"
+    "url": "https://github.com/AwesomeCI/AwesomeGhwh/issues"
   },
-  "homepage": "https://github.com/AwesomeCI/AwesomeGhprb#readme",
+  "homepage": "https://github.com/AwesomeCI/AwesomeGhwh#readme",
   "dependencies": {
     "awesome-github-api": "0.0.1"
   }

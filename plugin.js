@@ -20,6 +20,7 @@ GithubPullRequestBuilder.prototype.models = function (db){
 };
 
 GithubPullRequestBuilder.prototype.dependencies = function (){
+    console.log("Getting dickbutts");
     return [
         "awesome-github"
     ];
