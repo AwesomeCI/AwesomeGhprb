@@ -14,12 +14,12 @@ GithubPullRequestBuilder.prototype.name = function (){
 };
 
 
-GithubAPI.prototype.models = function (db){
+GithubPullRequestBuilder.prototype.models = function (db){
     models.github = AwesomeGithubApi.models(db);
     return null;
 };
 
-GithubAPI.prototype.dependencies = function (){
+GithubPullRequestBuilder.prototype.dependencies = function (){
     return [
         "awesome-github"
     ];
