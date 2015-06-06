@@ -1,6 +1,6 @@
 {
   "name": "awesome-ghprb",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "AwesomeCI GitHub Pull Request Builder",
   "main": "plugin.js",
   "scripts": {
@@ -23,5 +23,6 @@
   },
   "homepage": "https://github.com/AwesomeCI/AwesomeGhprb#readme",
   "dependencies": {
+    "awesome-github-api": "0.0.1"
   }
 }
